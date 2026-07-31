@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "jukeboxui",
+  "version": "${version}",
+  "name": "Jukebox UI",
+  "description": "Right-click a jukebox to open a menu of all music discs and click one to play it. Server-side only — no client install needed.",
+  "authors": [ "VIci0us1" ],
+  "contact": {
+    "homepage": "https://github.com/VIci0us1/Jukebox-UI",
+    "sources": "https://github.com/VIci0us1/Jukebox-UI",
+    "issues": "https://github.com/VIci0us1/Jukebox-UI/issues"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "icon": "assets/jukeboxui/icon.png",
+  "entrypoints": {
+    "main": [ "com.example.jukeboxui.JukeboxUiMod" ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": ">=26.1 <26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

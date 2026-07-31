@@ -1,0 +1,17 @@
+.gradle/
+build/
+out/
+classes/
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+Thumbs.db
+run/
+.fabric/
+remappedSrc/
+*.class
+hs_err_pid*
+replay_pid*
+!gradle/wrapper/gradle-wrapper.jar
